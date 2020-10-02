@@ -15,5 +15,6 @@ public class EquacaoSegundoGrau {
 		int xDuasLinhas = (int) ((-b - Math.sqrt(delta))/(2*a));
 		System.out.println("X linha é igual a:"+xLinha); 
 		System.out.println("X duas linhas é igual a:"+xDuasLinhas);	
+		
 	}
 }

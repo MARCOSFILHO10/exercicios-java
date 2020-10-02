@@ -1,12 +1,12 @@
-//# Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
-//# Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda,
-//# 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
-//# a. salário bruto.
+//# Faï¿½a um programa que pergunte quanto vocï¿½ ganha por hora e o nï¿½mero de horas trabalhadas no mï¿½s.
+//# Calcule e mostre o total do seu salï¿½rio no referido mï¿½s, sabendo-se que sï¿½o descontados 11% para o Imposto de Renda,
+//# 8% para o INSS e 5% para o sindicato, faï¿½a um programa que nos dï¿½:
+//# a. salï¿½rio bruto.
 //# b. quanto pagou ao IPRF
 //# c. quanto pagou ao INSS.
 //# d. quanto pagou ao sindicato.
-//# e. o salário líquido.
-//# f. o valor descontado.
+//# e. o salï¿½rio lï¿½quido.
+
 
 package exercicio1;
 
@@ -21,10 +21,10 @@ public double valorHora;
 	}
 	public static void main(String[] args) {
 		salarioBruto(5, 220);
-		System.out.println("O valor do salário bruto é:");
+		System.out.println("O valor do salï¿½rio bruto ï¿½:");
 		double SalBruto = (salarioBruto(5, 220));
 		System.out.println (SalBruto);
-		System.out.println("O valor do IRPF é:");
+		System.out.println("O valor do IRPF ï¿½:");
 		double Irpf = (valorIrpf (1100, 0.11));
 		System.out.println (Irpf);
 		System.out.println("O valor do INSS:");
@@ -33,9 +33,9 @@ public double valorHora;
 		System.out.println("O valor do SIND:");
 		double Sind = (valorSind (1100, 0.05));
 		System.out.println (Sind);
-		System.out.println("O valor dos descontos é:");
+		System.out.println("O valor dos descontos ï¿½:");
 		System.out.println (Irpf + Inss + Sind);
-		System.out.println ("O valor do salario liquido é:");
+		System.out.println ("O valor do salario liquido ï¿½:");
 		System.out.println (SalBruto - Irpf - Inss - Sind);
 	}
 	
